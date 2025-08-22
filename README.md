@@ -1,18 +1,18 @@
-O que você aprendeu:
+#O que você aprendeu:
 
-  Conceitos:
-    Sistemas web e recursos
-    Cliente/servidor, HTTP, JSON
-    Padrão Rest para API Web
+  @Conceitos:
+    **Sistemas web e recursos
+    **Cliente/servidor, HTTP, JSON
+    **Padrão Rest para API Web
   
-  Estruturação de projeto Spring Rest
+  @Estruturação de projeto Spring Rest
   
-  Entidades e ORM
+  @Entidades e ORM
 
-  Database seeding
+  @Database seeding
 
-  Padrão camadas
+  @Padrão camadas
 
-  Controller, service, repository
+  @Controller, service, repository
 
-  Padrão DTO
+  @Padrão DTO
