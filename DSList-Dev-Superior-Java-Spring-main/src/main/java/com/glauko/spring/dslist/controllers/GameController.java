@@ -3,6 +3,7 @@ package com.glauko.spring.dslist.controllers;
 import com.glauko.spring.dslist.dtos.GameDTO;
 import com.glauko.spring.dslist.dtos.GameMinDTO;
 import com.glauko.spring.dslist.entities.Game;
+import com.glauko.spring.dslist.exceptions.GameNotFoundException;
 import com.glauko.spring.dslist.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -23,7 +24,7 @@ public class GameController {
     }
 
     @GetMapping("/{id}")
-    public GameDTO findById(@PathVariable Long id) {return gameService.findById(id);}
+    public GameDTO findById(@PathVariable Long id) throws GameNotFoundException {return gameService.findById(id);}
 
 
 
